@@ -1,0 +1,27 @@
+<!-- <body>
+<div style="text-align:center">
+    <h1>Welcome to our {{title}}</h1>
+<div class="container">  
+  <br>
+    <app-display></app-display>
+    <br>
+    <app-input></app-input>
+  </div>
+</div>  
+</body> -->
+
+
+<nav class="navbar navbar-expand-sm bg-info navbar-light navbar-static-top ">
+  <div class="container-fluid">
+    <!-- Links to create and view -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" style="font-weight:bold;" routerLink="/users/create">Create User</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="font-weight:bold;" routerLink="/users/view">View Users</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet> 
